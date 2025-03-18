@@ -1,0 +1,30 @@
+   .login-container {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:salmon;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    transition: background-color 0.3s; /* הוספת אנימציה */
+    color: crimson;
+}
+
+.auth-buttons button:hover {
+    background-color: crimson;
+    color: #f0f4f8;
+}
+
+
+  
