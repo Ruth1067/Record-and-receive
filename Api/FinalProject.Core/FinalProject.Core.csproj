@@ -1,0 +1,51 @@
+<!--<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		--><!-- הוסף כאן חבילות אם יש צורך --><!--
+	</ItemGroup>
+</Project>-->
+<!--<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		--><!-- שים לב לשינוי כאן --><!--
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+		--><!-- הוסף את השורה הזו --><!--
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="14.0.0" />
+	</ItemGroup>
+</Project>-->
+
+
+<!--<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="14.0.0" />
+	</ItemGroup>
+</Project>-->
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<!-- שים לב לשינוי כאן -->
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+		<!-- הוסף את השורה הזו -->
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="14.0.0" />
+	  <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="4.0.0" />
+	</ItemGroup>
+</Project>

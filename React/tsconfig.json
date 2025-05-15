@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ],
+    "compilerOptions": {
+      "baseUrl": "src",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    }
+}
